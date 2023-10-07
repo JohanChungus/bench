@@ -31,7 +31,7 @@ def cpu_benchmark_test():
 
 def perform_calculations():
     # Perform a large number of calculations
-    for _ in range(10**10):
+    for _ in range(10**8):
         result = 2**2
 
 benchmark_result = cpu_benchmark_test()
